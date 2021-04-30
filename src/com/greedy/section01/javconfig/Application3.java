@@ -3,7 +3,7 @@ package com.greedy.section01.javconfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.greedy.section01.javconfig.config.ContextConfiguration2;
+import com.greedy.section01.javconfig.config.ContextConfiguration3;
 
 public class Application3 {
 
