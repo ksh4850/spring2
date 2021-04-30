@@ -9,8 +9,8 @@
 	
 	 -->
 	 <!-- Annotation 도 인식을 해서 bean 을 관리하라고 설정  -->
-	 <!-- <context:component-scan base-package="com.greedy.section02.xmlconfig"></context:component-scan> -->
-	
-	
+	 <context:component-scan base-package="com.greedy.section02.xmlconfig">
+	 	<context:exclude-filter type="assignable" expression="com.greedy.section01.xmlconfig.MemberDAO"/>
+	 </context:component-scan>
 	
 </beans>
